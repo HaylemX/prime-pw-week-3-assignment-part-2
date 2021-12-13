@@ -18,6 +18,21 @@ for (let i=3; i<6; i++) {
   console.log(i);
 }
 //1c
+for (let i=2; i<11; i++) {
+  if (i % 2 == 0) {
+    console.log(i);
+  }
+}
+//1d
+for (let i=5; i>=1; i--) {
+  console.log(i);
+}
+//2a
+
+let stars = ['Polaris', 'Gacrux', 'Formalhaut', 'Rigel', 'Deneb']
+  for (let i=0; i<stars.length; i++) {
+    console.log('for loop', stars[i]);
+}
 
 
 // 1.a. TODO: Write a for loop to console.log the numbers from 0 to 5
