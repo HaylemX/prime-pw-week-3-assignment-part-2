@@ -38,7 +38,19 @@ while (stars[0]>=stars[4]) {
   console.log('Some stars using while:', stars);
   stars++;
 }
+//3b
+let i = 0;
+while (i < 6) {
+  console.log(i);
+  i++;
+}
+//3c
+let i = 10;
 
+while (i > 4) {
+  console.log(i);
+  i--;
+}
 
 // 1.a. TODO: Write a for loop to console.log the numbers from 0 to 5
 //   - Which part of the example loop do you need to change to do this?
