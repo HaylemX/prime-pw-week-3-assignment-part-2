@@ -24,7 +24,7 @@ for (let i=2; i<11; i++) {
   }
 }
 //1d
-for (let i=5; i>=1; i--) {
+for (let i=5; i>=0; i--) {
   console.log(i);
 }
 //2a
@@ -45,11 +45,11 @@ while (i < 6) {
   i++;
 }
 //3c
-let i = 10;
+let x = 10;
 
-while (i > 4) {
-  console.log(i);
-  i--;
+while (x > 4) {
+  console.log(x);
+  x--;
 }
 
 // 1.a. TODO: Write a for loop to console.log the numbers from 0 to 5
