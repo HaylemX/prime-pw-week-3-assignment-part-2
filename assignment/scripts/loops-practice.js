@@ -34,9 +34,10 @@ let stars = ['Polaris', 'Gacrux', 'Formalhaut', 'Rigel', 'Deneb']
     console.log('Some stars:', stars[i]);
 }
 //3a
-while (stars[0]>=stars[4]) {
-  console.log('Some stars using while:', stars);
-  stars++;
+let i=0;
+while (i<stars.length;) {
+  console.log('Some stars using while:', stars[i]);
+  i++;
 }
 //3b
 let i = 0;
